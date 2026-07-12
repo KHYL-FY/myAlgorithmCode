@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>页面布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            border: 1px blue solid;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            height: 200px;
+            margin: 4px;
+        }
+
+        .leftside {
+            width: 294px;
+            height: 500px;
+            margin: 0 2px 4px 4px;
+            float: left;
+        }
+
+        .rightside {
+            width: 490px;
+            height: 500px;
+            margin: 0 4px 4px 2px;
+            float: right;
+        }
+
+        .footer {
+            clear: both;
+            height: 100px;
+            margin: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="leftside">leftside</div>
+        <div class="rightside">rightside</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+
+</html>

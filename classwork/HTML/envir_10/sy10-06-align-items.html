@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>align-items</title>
+    <style>
+        .container {
+            height: 200px;
+            border: 1px solid #000;
+            background-color: rgb(218, 208, 208);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            /* 可选：flex-start / flex-end / center / stretch */
+            align-items: center;
+        }
+
+        .container div {
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 12px;
+            border: 1px solid #000;
+            box-sizing: border-box;
+            background-color: rgb(234, 172, 172);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+
+</html>

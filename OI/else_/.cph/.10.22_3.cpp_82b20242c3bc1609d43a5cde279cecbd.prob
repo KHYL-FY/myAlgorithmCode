@@ -1,0 +1,1 @@
+{"name":"Local: 10","url":"d:\\.CODE\\_else\\10.22_3.cpp","tests":[{"id":1761128377649,"input":"5\nJAVA\nAVJA\nACAT\nYYJJ\nAOSP","output":"YES\nYES\nNO\nNO\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\_else\\10.22_3.cpp","group":"local","local":true}

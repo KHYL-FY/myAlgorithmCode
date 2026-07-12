@@ -1,0 +1,1 @@
+{"name":"Local: P1305","url":"d:\\.CODE\\luogu\\P1305.cpp","tests":[{"id":1761872484498,"input":"6\nabc\nbdi\ncj*\nd**\ni**\nj**","output":"abdicj"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\luogu\\P1305.cpp","group":"local","local":true}

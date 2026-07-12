@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2D转换的原点</title>
+	<style>
+		body{
+			margin:0;
+			padding:0; 
+			background-color:#F7F7F7;
+		}
+		.box{
+			width:100px; 
+			height:200px; 
+			margin:300px auto;
+			position: relative;
+		}
+		.box img{
+			width:100%; 
+			height:100%;
+			position: absolute;
+			left:0;
+			top:0;
+			transition: all 1s;
+			transform-origin: left top;
+		}
+		.box:hover img:nth-child(1){ transform: rotate(30deg); }
+		.box:hover img:nth-child(2){ transform: rotate(60deg); }
+		.box:hover img:nth-child(3){ transform: rotate(90deg); }
+		.box:hover img:nth-child(4) { transform: rotate(120deg); }
+		.box:hover img:nth-child(5){ transform: rotate(150deg); }
+		.box:hover img:nth-child(6) { transform: rotate(180deg); }
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="images/phone.jpg" alt="">
+		<img src="images/phone.jpg" alt="">
+		<img src="images/phone.jpg" alt="">
+		<img src="images/phone.jpg" alt="">
+		<img src="images/phone.jpg" alt="">
+		<img src="images/phone.jpg" alt="">
+	</div>
+</body>
+</html>

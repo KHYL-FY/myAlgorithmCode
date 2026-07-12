@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .div1 {
+            width: auto;
+            background-color: #e4e7e0;
+            border: 5px solid #000;
+            overflow: hidden;
+        }
+
+        .div1 .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #000;
+            background-color: skyblue;
+            float: left;
+        }
+
+        .div2 {
+            width: 800px;
+            height: 300px;
+            background-color: rgb(199, 23, 23);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <div class="box">11111111111</div>
+        <div class="box">22222222222</div>
+        <div class="box">33333333333</div>
+    </div>
+    <div class="div2">第2个大盒子</div>
+</body>
+
+</html>

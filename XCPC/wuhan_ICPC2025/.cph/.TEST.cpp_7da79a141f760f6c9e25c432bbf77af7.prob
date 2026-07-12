@@ -1,0 +1,1 @@
+{"name":"Local: TEST","url":"d:\\.CODE\\ICPC\\wuhan_ICPC2025\\TEST.cpp","tests":[{"id":1775235248451,"input":"4\n7\n3 5 9 8 2 11 5\n7\n7 9 2 4 17 10 15\n1\n100\n2\n100 100\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\ICPC\\wuhan_ICPC2025\\TEST.cpp","group":"local","local":true}

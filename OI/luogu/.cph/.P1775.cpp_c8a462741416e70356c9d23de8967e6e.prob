@@ -1,0 +1,1 @@
+{"name":"Local: P1775","url":"d:\\.CODE\\OI\\luogu\\P1775.cpp","tests":[{"id":1778842647851,"input":"4\n2 5 3 1","output":"22"},{"id":1778842924197,"input":"2\n1 2","output":"3"},{"id":1779022639423,"input":"4\n4 5 9 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\OI\\luogu\\P1775.cpp","group":"local","local":true}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历1</title>
+    <!-- 添加样式 -->
+    <style>
+        /* (1) 表格：宽度600px，水平居中，边框合并 */
+        table {
+            width: 600px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        /* (2) 表格标题：字号30px，文字蓝色 */
+        caption {
+            font-size: 30px;
+            color: blue;
+        }
+
+        /* (3) 单元格：1px黑色实线边框，内容水平居中，宽度50px */
+        td {
+            border: 1px solid black;
+            text-align: center;
+            width: 50px;
+        }
+
+        /* (4) “照片”单元格：背景色 #cccccc */
+        td[rowspan="3"] {
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>个人简历</caption>
+        <tr>
+            <td>姓名</td>
+            <td>张三</td>
+            <td>学号</td>
+            <td>22222222</td>
+            <td rowspan="3">照片</td>
+        </tr>
+        <tr>
+            <td>专业</td>
+            <td>软件工程</td>
+            <td>毕业院校</td>
+            <td>河南科技大学</td>
+        </tr>
+        <tr>
+            <td>求职意向</td>
+            <td colspan="3">前端开发岗位</td>
+        </tr>
+    </table>
+</body>
+</html>

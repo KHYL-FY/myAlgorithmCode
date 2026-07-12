@@ -1,0 +1,1 @@
+{"name":"Local: E_2","url":"d:\\.CODE\\atcoder\\454\\E_2.cpp","tests":[{"id":1776683623902,"input":"1\n4 3 2","output":"Yes\nRRRDLLLDDRRURD"},{"id":1776692306924,"input":"3\n2 1 2\n3 2 2\n4 3 2\n","output":"Yes\nDR\nNo\nYes\nRRRDLLLDDRRURD\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\atcoder\\454\\E_2.cpp","group":"local","local":true}

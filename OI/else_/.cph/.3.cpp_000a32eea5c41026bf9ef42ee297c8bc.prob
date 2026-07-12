@@ -1,0 +1,1 @@
+{"name":"Local: 3","url":"d:\\.CODE\\niuke\\3.cpp","tests":[{"id":1760886556213,"input":"11\n1 1\n2 2\n3 3\n4 4\n5 5\n6 6\n7 7\n8 8\n9 9\n10 10\n1 100","output":"0\n0\n0\n1\n0\n1\n0\n2\n1\n1\n111"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\niuke\\3.cpp","group":"local","local":true}

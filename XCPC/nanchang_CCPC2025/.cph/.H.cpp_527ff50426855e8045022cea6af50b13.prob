@@ -1,0 +1,1 @@
+{"name":"Local: H","url":"d:\\.CODE\\ICPC\\nanchang_CCPC2025\\H.cpp","tests":[{"id":1774532947044,"input":"3\n5\n1 2 4 5 6\n8\n1 2 4 5 5 8 10 9\n3\n3 2 1\n","output":"6\n13\n-1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\ICPC\\nanchang_CCPC2025\\H.cpp","group":"local","local":true}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>外边距塌陷</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .father {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 0;
+            /* 解决塌陷三选一 */
+            /* padding-top: 1px; */
+            border-top: 1px solid transparent;
+            /* overflow: hidden; */
+        }
+
+        .child {
+            margin-top: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="child"></div>
+    </div>
+</body>
+
+</html>

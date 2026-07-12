@@ -1,0 +1,1 @@
+{"name":"Local: TEST","url":"d:\\.CODE\\OI\\luogu\\TEST.cpp","tests":[{"id":1774356423251,"input":"7\n","output":"10"},{"id":1778596819549,"input":"4\n4 5 9 4","output":""},{"id":1779023014538,"input":"4\n4 5 9 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\OI\\luogu\\TEST.cpp","group":"local","local":true}

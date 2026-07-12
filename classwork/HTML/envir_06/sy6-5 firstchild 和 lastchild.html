@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>first-child last-child</title>
+    <style>
+        p:first-child {
+            background-color: yellow;
+        }
+
+        p:last-child {
+            background-color: rgb(9, 255, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <p>这个段落是其父元素（body）的首个子元素。</p>
+    <h1>欢迎访问我的主页</h1>
+    <div>
+        <p>这个段落是其父元素（div）的首个子元素。</p>
+        <p>这个段落是其父元素（div）的第2个元素。</p>
+        <p>这个段落是其父元素的最后子元素。</p>
+    </div>
+    <div>
+        <p>这个段落是其父元素（div）的唯一元素，即是第一个孩子也是最后一个孩子。</p>
+    </div>
+    <p>这个段落是body的最后一个孩子。</p>
+</body>
+
+</html>

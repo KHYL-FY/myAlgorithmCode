@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2D转换应用-任意元素的全居中</title>
+	<style>
+		html,body { height:100%; }
+		body {
+			margin:0;
+			padding: 0; 
+			background-color: #ccc; 
+			position: relative;
+		}
+		.login {
+			width:400px;
+			height:300px;
+			line-height:300px; 
+			border:6px solid #ccc; 
+			border-radius: 20px;
+			text-align: center;
+			background-color: rgb(232, 232, 236);
+			position:absolute;
+			left:50%; 
+			top:50%;
+			transform: translate(-50%,-50%);
+		}
+	</style>
+</head>
+<body>
+	<div class="login">用户登录版块</div>
+</body>
+</html>

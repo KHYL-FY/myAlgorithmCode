@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"d:\\.CODE\\atcoder\\453\\A.cpp","tests":[{"id":1776051887480,"input":"7\nooparts\n","output":"parts\n"},{"id":1776051917441,"input":"6\nabcooo\n","output":"abcooo\n"},{"id":1776051930300,"input":"5\nooooo\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\atcoder\\453\\A.cpp","group":"local","local":true}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>input新增type类型</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        请输入您的邮箱：<input type="email" name="formail" /><br />
+        请输入个人网址：<input type="url" name="userurl" /><br />
+        输入数字：<input type="number" name="bl" min="0" max="100" /><br />
+        输入手机号：<input type="tel" name="telephone" pattern="[0-9]{11}" /><br />
+        输入搜索关键词：<input type="search" name="searchinfo" /><br />
+        颜色选择：<input type="color" name="colo" />
+        <input type="color" name="col" value="#ff0000" /><br />
+        滑块：<input type="range" name="number" value="10" min="0" max="100" step="5" /><br />
+        <input type="submit" value="提交" />
+    </form>
+</body>
+
+</html>

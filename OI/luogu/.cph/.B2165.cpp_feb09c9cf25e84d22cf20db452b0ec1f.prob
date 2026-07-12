@@ -1,0 +1,1 @@
+{"name":"Local: B2165","url":"d:\\.CODE\\OI\\luogu\\B2165.cpp","tests":[{"id":1776050061559,"input":"1\n()[]{}","output":"YES"},{"id":1776050075162,"input":"6\n()\n([)]\n([]){}\n((((\n{[()()]}\n}{","output":"YES\nNO\nYES\nNO\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\OI\\luogu\\B2165.cpp","group":"local","local":true}

@@ -1,0 +1,137 @@
+/* 清楚默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    border: 0;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 模板样式 */
+body {
+    font-family: "微软雅黑";
+    background: #fdfdfd;
+}
+
+body>div {
+    width: 980px;
+    /* 版心宽度 */
+    margin: auto;
+    /* 盒子居中 */
+}
+
+/* 第一部分样式 */
+#bg {
+    width: 980px;
+    height: 617px;
+    margin: auto;
+    padding-top: 10px;
+    background-image: url(../images/bg.jpg);
+}
+
+#bg .nav {
+    width: 848px;
+    height: 46px;
+    background-image: url(../images/nav.jpg);
+    margin: 0px auto;
+    /* padding-top: 40px; */
+    padding: 40px 0px 0px 123px;
+}
+
+#bg .nav li {
+    /* color: #685649; */
+    font-size: 16px;
+    padding: 0px 30px;
+    display: inline-block;
+}
+
+#bg .nav li:nth-child(2) {
+    margin-right: 240px;
+}
+
+#bg .nav li a {
+    color: black;
+}
+
+/* 第二部分样式 */
+#news {
+    width: 980px;
+    height: 300px;
+    margin: 18px auto;
+    padding: 120px 0 0 0;
+    background-image: url(../images/dongtai.jpg);
+    background-repeat: no-repeat;
+}
+
+#news .dongtai {
+    width: 292px;
+    height: 256px;
+    float: left;
+    margin: 0 0 0 29px;
+}
+
+#news h2 {
+    width: 284px;
+    height: 50px;
+    padding: 0 0 0 10px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+#news .p1 {
+    width: 284px;
+    height: 70px;
+    padding: 10px 0 0 10px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+#news .p2 {
+    width: 294px;
+    height: 5px;
+    background-image: url(../images/yinying.jpg);
+}
+
+/* 第三部分样式 */
+#exhibition {
+    width: 980px;
+    height: 292px;
+    margin: auto;
+    padding-top: 170px;
+    background-image: url(../images/xinshang.jpg);
+}
+
+#exhibition .xingshang {
+    width: 916px;
+    height: 260px;
+    margin: auto;
+}
+
+#exhibition .xingshang img {
+    margin-left: 56px;
+}
+
+/* 第四部分样式 */
+#footer {
+    width: 100%;
+    height: 80px;
+    background-image: url(../images/footer_bg.jpg);
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* 第五部分样式 */
+#erweima {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}

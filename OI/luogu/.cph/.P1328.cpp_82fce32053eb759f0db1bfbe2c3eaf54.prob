@@ -1,0 +1,1 @@
+{"name":"Local: P1328","url":"d:\\.CODE\\P1328.cpp","tests":[{"id":1759412348005,"input":"10 5 6\n0 1 2 3 4\n0 3 4 2 1 0","output":"6 2"},{"id":1759412357478,"input":"9 5 5\n0 1 2 3 4\n1 0 3 2 4","output":"4 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\P1328.cpp","group":"local","local":true}

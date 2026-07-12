@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>响应式布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .left {
+            width: 190px;
+            height: 500px;
+            position: fixed;
+            left: 0;
+            background: #2914eb;
+        }
+
+        .right {
+            width: 300px;
+            height: 500px;
+            position: absolute;
+            right: 0;
+            top: 15px;
+            background: #e01f1f;
+        }
+
+        .middle {
+            height: 500px;
+            margin: 15px 0 0 200px;
+            margin-right: 310px;
+            background: rgb(147, 224, 24);
+        }
+
+        @media screen and (max-width:980px) {
+            .right {
+                display: none;
+            }
+
+            .middle {
+                margin-right: 0;
+            }
+        }
+
+        @media screen and (max-width:764px) {
+            .left {
+                display: none;
+            }
+
+            .middle {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">左侧固定</div>
+    <div class="middle">中间自适应</div>
+    <div class="right">右侧固定</div>
+</body>
+
+</html>

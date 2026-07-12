@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>datalist标签</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        请输入用户名：
+        <input type="text" list="name_list" name="username" autocomplete="off" />
+        <datalist id="name_list">
+            <option>张三</option>
+            <option>李四</option>
+            <option>王五</option>
+        </datalist>
+        <input type="submit" value="提交" />
+    </form>
+    <br />
+
+    <form action="#" method="get">
+        请输入网址：
+        <input type="url" list="url_list" name="weburl" />
+        <datalist id="url_list">
+            <option label="新浪" value="http://www.sina.com.cn"></option>
+            <option label="搜狐" value="http://www.sohu.com"></option>
+            <option label="传智" value="http://www.itcast.cn/"></option>
+        </datalist>
+        <input type="submit" value="提交" />
+    </form>
+</body>
+
+</html>

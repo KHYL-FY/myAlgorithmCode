@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>伪类选择器</title>
+    <style>
+        a {
+            width: 300px;
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border: 1px solid #000;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        a:link {
+            color: red;
+            background-color: yellow;
+        }
+
+        a:visited {
+            color: blue;
+            background-color: rgb(228, 241, 240);
+        }
+
+        a:hover {
+            color: hotpink;
+            background-color: aqua;
+        }
+
+        a:active {
+            color: red;
+            background-color: rgb(195, 0, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS 链接的四种状态</h1>
+    <p>超链接的四种状态未访问、访问后、鼠标悬停效果、激活（鼠标按下），四个选择器的顺序也不能改变</p>
+    <p><b>注释：</b>在 CSS 定义中，a:hover 必须位于 a:link 和 a:visited 之后才能生效。</p>
+    <p><b>注释：</b>在 CSS 定义中，a:active 必须位于 a:hover 之后才能生效。</p>
+    <a href="#1">河南科技大学</a>
+    <a href="#2" target="_self">w3school</a>
+</body>
+
+</html>

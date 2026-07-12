@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>传智信息登记表</title>
+    <style>
+        body{
+            background: url("images/form_bg.jpg");
+        }
+        td {
+            font-size: 13px;
+            font-family: "Microsoft YaHei UI Light"
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border="1" align="center" border="0">
+
+        <thead>
+            <tr height="80" bord="0"> <td colspan="4"></td></tr>   
+        </thead>
+        <tbody>
+            <tr>
+                <td width="1000">
+                </td>
+                <td width="450"></td>
+                <td width="1100">
+                    <form action="#" method="get" name="myform">
+                        <table border="1" align="center" cellspacing="15">
+                            <caption height="200">
+                                <h2>信息登记表<h2>
+                            </caption>
+                            <tr>
+                                <td font-size="12">用户名：</td>
+                                <td> <input type="text" value="myemail@163.com"></td>
+                                <td>（不能修改，只能查看）</td>
+                            </tr>
+                            <tr>
+                                <td>密码：</td>
+                                <td><input type="password">&nbsp;&nbsp;<img src="images/2.jpg"></td>
+                                <td>（必须填写）</td>
+                            </tr>
+                            <tr>
+                                <td align="right">真实姓名：</td>
+                                <td><input type="text" name="Truename" pattern="^[\u4e00-\u9fa5]{0,}$" required></td>
+                                <td>（必须填写，只能输入汉字）</td>
+                            </tr>
+                            <tr>
+                                <td align="right">真实年龄：</td>
+                                <td><input type="number" name="years" required></td>
+                                <td>（必须填写）</td>
+                            </tr>
+                            <tr>
+                                <td align="right">出生日期：</td>
+                                <td><input type="date" name="birthday" required></td>
+                                <td>（必须填写）</td>
+                            </tr>
+                            <tr>
+                                <td align="right">电子邮箱：</td>
+                                <td><input type="email" name="email" required></td>
+                                <td>（必须填写）</td>
+                            </tr>
+                            <tr>
+                                <td align="right">身份证号：</td>
+                                <td><input type="text" pattern="^[A-Za-z0-9]+$ 或 ^[A-Za-z0-9]{4,40}$"></td>
+                                <td>（必须填写，能够以数字、字母x结尾的短身份证号）</td>
+                            </tr>
+                            <tr>
+                                <td align="right">手机号码：</td>
+                                <td><input type="tel" name="telnum" required></td>
+                                <td>（必须填写）</td>
+                            </tr>
+                            <tr>
+                                <td align="right">个人主页：</td>
+                                <td><input type="url" name="url1"></td>
+                                <td>（请选择网址）</td>
+                            </tr>
+                            <tr>
+                                <td align="right">幸运颜色：</td>
+                                <td><input type="color" size="50" name="color" value="#fed000"></td>
+                                <td>（请选择你喜欢的颜色）</td>
+                            </tr>
+                           
+                            <tr>
+                                <td colspan="3" align="center"><input type="submit" value="提　交">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="重　置"></td>
+                                <!-- <td></td> -->
+
+                        </table>
+
+
+                    </form>
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>

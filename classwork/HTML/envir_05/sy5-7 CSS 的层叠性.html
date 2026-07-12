@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS层叠性1</title>
+    <style>
+        * {
+            font-size: 40px !important;
+            color: pink !important;
+        }
+
+        .special {
+            color: blue;
+            font-size: 20px;
+        }
+
+        #one {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="special" id="one" style="color: purple">段落文本1</p>
+    <p id="one">段落文本2</p>
+    <p class="special">段落文本3</p>
+    <p>段落文本4</p>
+</body>
+
+</html>

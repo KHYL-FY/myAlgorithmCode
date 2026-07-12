@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>响应式简单应用</title>
+    <style>
+        /* 超小屏幕 手机 */
+        @media only screen and (max-width: 767px) {
+            body {
+                background-color: pink;
+            }
+        }
+
+        /* 小屏幕 平板 */
+        @media only screen and (min-width: 768px) {
+            body {
+                background-color: blue;
+            }
+        }
+
+        /* 中等屏幕 桌面 */
+        @media only screen and (min-width: 992px) {
+            body {
+                background-color: green;
+            }
+        }
+
+        /* 大屏幕 大桌面 */
+        @media only screen and (min-width: 1200px) {
+            body {
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>响应式布局测试</h1>
+</body>
+
+</html>

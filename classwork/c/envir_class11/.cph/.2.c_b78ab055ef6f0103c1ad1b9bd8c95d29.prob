@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"d:\\.CODE\\cclass\\envir_class11\\2.c","tests":[{"id":1766315733531,"input":"3\n2021001 张三 13800138001\n2021002 李四 13900139002\n2021003 王五 13700137003\n李四","output":"学号: 2021002\n姓名: 李四\n联系电话: 13900139002"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\cclass\\envir_class11\\2.c","group":"local","local":true}

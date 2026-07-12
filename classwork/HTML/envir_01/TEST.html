@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>sy2-1-1无序列表</title>
+    <style>
+        /* 使用CSS控制无序列表样式 (提倡做法) */
+        .disc-list {
+            list-style-type: disc;
+            /* 实心圆 */
+        }
+
+        .circle-list {
+            list-style-type: circle;
+            /* 空心圆 */
+        }
+
+        .square-list {
+            list-style-type: square;
+            /* 方块 */
+        }
+
+        .none-list {
+            list-style-type: none;
+            /* 无符号 */
+        }
+
+        .custom-list {
+            list-style-type: upper-roman;
+            /* 也可以用于有序，无序可用自定义图片，这里展示移除默认并用背景 */
+            /* 更高级: 使用list-style-image, 但简单展示 */
+        }
+
+        .custom-list li {
+            list-style-type: none;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .custom-list li::before {
+            content: "★";
+            position: absolute;
+            left: 0;
+            color: #e67e22;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>无序列表基本用法 (ul & li)</h2>
+    <h3>默认样式 (disc)</h3>
+    <ul class="disc-list">
+        <li>苹果</li>
+        <li>香蕉</li>
+        <li>橙子</li>
+    </ul>
+
+    <h3>空心圆样式 (circle) - CSS控制</h3>
+    <ul class="circle-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>方块样式 (square)</h3>
+    <ul class="square-list">
+        <li>无序列表常用于导航菜单</li>
+        <li>新闻列表</li>
+        <li>商品分类</li>
+    </ul>
+
+    <h3>无符号样式 + 自定义图标 (CSS伪元素)</h3>
+    <ul class="custom-list">
+        <li>前端开发</li>
+        <li>后端开发</li>
+        <li>全栈开发</li>
+    </ul>
+
+    <h3>老式type属性 (了解即可，不推荐)</h3>
+    <ul type="square">
+        <li>老式写法演示</li>
+        <li>不推荐使用HTML属性控制样式</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>first-line</title>
+    <style>
+        h1 {
+            width: 1000px;
+            height: 200px;
+            margin: 20px auto;
+            line-height: 200px;
+            text-align: center;
+            color: greenyellow;
+            font-size: 100px;
+            background: #333;
+        }
+
+        div {
+            width: 600px;
+            margin: auto;
+            border: 1px solid #a2aea3;
+            padding: 20px;
+            background-color: #e6eee2;
+        }
+
+        div p {
+            text-indent: 2em;
+            line-height: 2;
+        }
+
+        div p::first-line {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>匆&nbsp;&nbsp;&nbsp;&nbsp;匆</h1>
+    <div>
+        <p>燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。但是，聪明的，你告诉我，我们的日子为什么一去不复返呢？</p>
+        <p>我不知道他们给了我多少日子，但我的手确乎是渐渐空虚了。</p>
+    </div>
+</body>
+
+</html>

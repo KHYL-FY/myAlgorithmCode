@@ -1,0 +1,118 @@
+/* 全局初始化 */
+body,ul,li,p{
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 920px;
+    margin: 0 auto;
+}
+
+/* 顶部样式 */
+.top {
+    height: 250px;
+    background-image: url("images/top_bg.jpg");
+    padding: 14px 20px 0px;
+}
+
+.top>img {
+    display: block;
+    border-radius: 12px 12px 0 0;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+ul>li {
+    float: left;
+}
+
+ul>li>a{
+    display: block;
+}
+
+ul>li img {
+    display: block;
+}
+
+/* 主体 */
+.main {
+    background-image: url("images/main_bg.jpg");
+    overflow: hidden;
+}
+
+.main .banner {
+    padding: 0 30px 0px;
+    margin-bottom: 10px;
+}
+
+.main .banner>img {
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+.main .left {
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 337px;
+    float: left;
+}
+
+/* .main .left img {
+    display: block;
+} */
+
+.main .right {
+    width: 553px;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 60px;
+    height: 492px;
+    background-image: url("images/right_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.main .right p{
+    font-size: 12px;
+}
+.main .right>p {
+    text-indent: 2em;
+    margin: 17px 0;
+    color: #4F432B;
+    text-align: justify;
+}
+
+.main .right>p::first-letter{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.main .right>.pf {
+    margin-left: 20px;
+    color: #806C46;
+}
+
+.main .right>.pf>p:last-child {
+    margin-left: 200px;
+}
+
+/* 底部 */
+.bottom {
+    height: 114px;
+    background-image: url("images/bottom_bg.jpg");
+    padding-left: 74px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.bottom p {
+    color: #806C46;
+    font-size: 12px;
+}
+
+body {
+    background-image: url(images/body_bg.jpg);
+}

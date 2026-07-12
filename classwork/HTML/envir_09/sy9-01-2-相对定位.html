@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>静态定位和相对定位</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            /* 1、设置定位方式 */
+            /* position: static; */
+            position: relative;
+            /* 2、设置偏移值 */
+            top: 100px;
+            left: 100px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+</body>
+
+</html>

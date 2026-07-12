@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>定位压住标准流内容</title>
+    <style>
+        .box{
+            width:800px;
+            height:300px;
+            margin:10px auto;
+            background-color:pink;
+            position:relative;
+        }
+        img{
+            width:310px;
+            height:165px;
+            margin-right:5px;
+        }
+        .img1{ float:left; }
+        .img2{
+            position:absolute;
+            right:0;
+            top:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="images/stone.jpg" class="img1">
+        <img src="images/stone.jpg" class="img2">
+        <p>何人不爱牡丹花，占破朝霞 芳菲四月，春色如烟，花香四溢。</p>
+    </div>
+</body>
+</html>

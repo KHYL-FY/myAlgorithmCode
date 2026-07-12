@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>层叠性-选择器相同</title>
+    <style>
+        .red {
+            color: red;
+            background-color: pink;
+        }
+
+        .green {
+            color: green;
+            font-size: 40px;
+        }
+
+        .blue {
+            color: blue;
+        }
+    </style>
+    <style>
+        .green {
+            color: green;
+            font-size: 40px;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .red {
+            color: red;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="red blue green">迟日江山丽，春风花草香。泥融飞燕子，沙暖睡鸳鸯。</p>
+</body>
+
+</html>

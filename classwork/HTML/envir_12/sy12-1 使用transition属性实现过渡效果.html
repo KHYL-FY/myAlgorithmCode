@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>体验过渡效果</title>
+	<style>
+		.bar{ 
+			width:150px;
+			height:15px; 
+			border:1px solid red;
+			border-radius:7px; 
+			margin:20px auto;
+		}
+		.bar_in{ 
+			width:0;
+			height:100%; 
+			background-color: red;
+			border-radius: 7px;
+			/* 过渡：宽度 1.2s 缓出 延迟0.5s */
+			transition: width 1.2s ease-out 0.5s;
+		}
+		.bar:hover .bar_in {
+			width:100%;
+		}
+		.box{
+			width:200px;
+			height:200px; 
+			margin:10px auto;
+			background-color: red;
+			/* 所有属性过渡 3s */
+			transition: all 3s;
+		}
+		.box:hover{ 
+			width:300px; 
+			height:300px;
+			border-radius:50%;
+			background-color:blue;
+		}
+	</style>
+</head>
+<body>	
+	<div class="bar">
+        <div class="bar_in"></div>
+    </div>
+	<div class="box"></div>	
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>导航栏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu {
+            width: 1100px;
+            height: 50px;
+            border: 1px black solid;
+            margin: 0 auto;
+            background-color: #009;
+        }
+
+        li {
+            list-style: none;
+            width: 110px;
+        }
+
+        .menu li a {
+            display: block;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color: #FFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .menu>li {
+            float: left;
+        }
+
+        .menu>li ul {
+            display: none;
+        }
+
+        .menu ul li a {
+            font-weight: normal;
+            font-size: 14px;
+            background-color: #00F;
+            height: 40px;
+        }
+
+        .menu>li:hover>a {
+            background-color: #006;
+            color: red;
+        }
+
+        .menu>li:hover ul {
+            display: block;
+        }
+
+        .menu ul li a:hover {
+            color: #df4136;
+            background-color: #2a40bd;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="#">学校首页</a></li>
+        <li><a href="#">学校概况</a></li>
+        <li>
+            <a href="#">院系设置</a>
+            <ul>
+                <li><a href="#">软件学院</a></li>
+                <li><a href="#">信工学院</a></li>
+                <li><a href="#">机电学院</a></li>
+                <li><a href="#">车辆学院</a></li>
+            </ul>
+        </li>
+        <li><a href="#">教育教学</a></li>
+        <li><a href="#">科学研究</a></li>
+        <li><a href="#">招生就业</a></li>
+        <li><a href="#">人才招聘</a></li>
+        <li><a href="#">合作交流</a></li>
+        <li><a href="#">智慧校园</a></li>
+        <li><a href="#">办公OS</a></li>
+    </ul>
+</body>
+
+</html>

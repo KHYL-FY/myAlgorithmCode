@@ -1,0 +1,1 @@
+{"name":"Local: P1080","url":"d:\\.CODE\\luogu\\P1080.cpp","tests":[{"id":1763637409096,"input":"3 \n1 1 \n2 3 \n7 4 \n4 6 ","output":"2"},{"id":1763637967222,"input":"10\n5 7\n4 2\n7 3\n7 2\n4 4\n1 7\n5 3\n6 1\n4 5\n2 3\n3 7","output":"134400"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\luogu\\P1080.cpp","group":"local","local":true}

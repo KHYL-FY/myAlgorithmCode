@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex图片网格布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            margin-bottom: 30px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+            padding: 0 20px;
+        }
+
+        .image-box>div {
+            flex: 1 1 300px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .image-box>div:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+            transform: translateY(-8px);
+        }
+
+        .image-box>div img {
+            width: 100%;
+            height: 200px;
+            display: block;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 15px;
+        }
+
+        .info h3 {
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .info p {
+            color: #7f8c8d;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0;
+            color: #7f8c8d;
+            border-top: 2px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>图片网格画廊</h1>
+        <p>使用Flex布局实现的响应式图片网格</p>
+    </header>
+
+    <div class="image-box">
+        <div>
+            <img src="images/自然风光.jpg" alt="自然风光">
+            <div class="info">
+                <h3>自然风光</h3>
+                <p>美丽的自然景观，展示大自然的神奇与壮丽。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/城市建筑.jpg" alt="城市建筑">
+            <div class="info">
+                <h3>城市建筑</h3>
+                <p>现代城市建筑，展现人类智慧与创造力结晶。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/山脉色.jpg" alt="山脉色">
+            <div class="info">
+                <h3>山脉色</h3>
+                <p>巍峨山脉，层峦叠嶂，气势磅礴。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/海滩日落.jpg" alt="海滩日落">
+            <div class="info">
+                <h3>海滩日落</h3>
+                <p>夕阳余晖洒在海面，浪漫唯美。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/人物背像.jpg" alt="人物背像">
+            <div class="info">
+                <h3>人物背像</h3>
+                <p>生动人物像，捕捉人物情感与个性。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/美食摄影.jpg" alt="美食摄影">
+            <div class="info">
+                <h3>美食摄影</h3>
+                <p>精美食物摆盘，令人垂涎欲滴。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/雪山之巅.jpg" alt="雪山之巅">
+            <div class="info">
+                <h3>雪山之巅</h3>
+                <p>雄伟雪山，白雪皑皑，纯净圣洁。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/现代建筑.jpg" alt="现代建筑">
+            <div class="info">
+                <h3>现代建筑</h3>
+                <p>简约现代设计，彰显都市时尚。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/可爱狗.jpg" alt="可爱狗">
+            <div class="info">
+                <h3>可爱狗</h3>
+                <p>萌宠瞬间，治愈一切不开心。</p>
+            </div>
+        </div>
+        <div>
+            <img src="images/森林迷雾.jpg" alt="森林迷雾">
+            <div class="info">
+                <h3>森林迷雾</h3>
+                <p>迷雾森林，神秘幽静，宛如仙境。</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>2026 Flex图片网格 | 使用纯CSS Flexbox实现</p>
+    </footer>
+</body>
+
+</html>

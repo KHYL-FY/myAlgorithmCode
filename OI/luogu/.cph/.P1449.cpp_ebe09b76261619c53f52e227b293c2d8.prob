@@ -1,0 +1,1 @@
+{"name":"Local: P1449","url":"d:\\.CODE\\luogu\\P1449.cpp","tests":[{"id":1768715615159,"input":"3.5.2.-*7.+@","output":"16"},{"id":1768715625324,"input":"10.28.30./*7.-@","output":"-7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\luogu\\P1449.cpp","group":"local","local":true}

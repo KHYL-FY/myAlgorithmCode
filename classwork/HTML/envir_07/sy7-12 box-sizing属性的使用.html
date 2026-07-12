@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>box-sizing</title>
+    <style>
+        .box1 {
+            width: 200px;
+            height: 150px;
+            border: 5px solid red;
+            padding: 10px;
+            margin: 20px;
+            background-color: pink;
+            box-sizing: content-box;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 150px;
+            border: 5px solid red;
+            padding: 10px;
+            margin: 20px;
+            background-color: rgb(186, 231, 201);
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+
+</html>

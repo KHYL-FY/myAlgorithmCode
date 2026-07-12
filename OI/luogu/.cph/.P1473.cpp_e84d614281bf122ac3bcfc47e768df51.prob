@@ -1,0 +1,1 @@
+{"name":"Local: P1473","url":"d:\\.CODE\\OI\\luogu\\P1473.cpp","tests":[{"id":1775476792173,"input":"7","output":"1+2-3+4-5-6+7\n1+2-3-4+5+6-7\n1-2 3+4+5+6+7\n1-2 3-4 5+6 7\n1-2+3+4-5+6-7\n1-2-3-4-5+6+7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\OI\\luogu\\P1473.cpp","group":"local","local":true}

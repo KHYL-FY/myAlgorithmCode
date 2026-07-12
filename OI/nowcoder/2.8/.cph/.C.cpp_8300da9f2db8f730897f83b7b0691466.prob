@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"d:\\.CODE\\nowcoder\\2.8\\C.cpp","tests":[{"id":1770555148727,"input":"6\n1 2\n1 3\n1 4\n1 5\n1 6","output":"0"},{"id":1770555156791,"input":"4\n1 2\n2 3\n3 4","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\nowcoder\\2.8\\C.cpp","group":"local","local":true}

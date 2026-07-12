@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>单元格合并和表格嵌套</title>
+</head>
+<!--
+      1.演示跨列合并
+      2.演示跨行合并
+      3.演示单元格里再嵌套表格
+-->
+
+<body>
+    <table border="3" align="center" width="600">
+        <caption>课程表</caption>
+        <thead>
+            <tr>
+                <th>节次</th>
+                <th>星期一</th>
+                <th>星期二</th>
+                <th>星期三</th>
+                <th>星期四</th>
+                <th>星期五</th>
+                <th>星期六</th>
+                <th>星期日</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 第一行 -->
+            <tr>
+                <td>1-2节</td>
+                <td rowspan="2">语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>体育</td>
+                <td rowspan="2" colspan="2">
+                    <!-- 表格嵌套 -->
+                    <table border="1" width="100">
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>2</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- 第二行 -->
+            <tr>
+                <td>3-4节</td>
+                <!-- <td >语文</td>  被上一行跨行合并的列不再需要td标记 -->
+                <td>音乐</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>体育</td>
+            </tr>
+
+            <!-- 第三行 -->
+            <tr>
+                <td height="30" colspan="8" align="center">午休</td>
+            </tr>
+            <tr>
+                <td>5-6节</td>
+                <!--<td >语文</td>-->
+                <td>数学</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>体育</td>
+                <!--<td></td>
+        <td></td>  -->
+            </tr>
+            <!-- 第四行 -->
+            <tr>
+                <td>7-8节</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>体育</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <!-- 第五行 -->
+        <tfoot>
+            <tr>
+                <td colspan="8">晚自习</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

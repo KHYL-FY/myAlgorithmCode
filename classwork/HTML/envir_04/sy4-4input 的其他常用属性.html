@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>input其他常用属性</title>
+</head>
+
+<body>
+    <form action="#" method="get" novalidate>
+        用户名：
+        <input type="text" value="张三" name="username" required autofocus autocomplete="off" /><br />
+        密码：
+        <input type="password" name="psd" minlength="6" size="20" required placeholder="请输入6位以上密码" /><br />
+        电子邮箱：
+        <input type="email" name="myemail" multiple />（多个邮箱用逗号分隔）<br /><br />
+        上传照片：
+        <input type="file" name="selfile" multiple /><br /><br />
+        <input type="submit" value="提交" />
+    </form>
+</body>
+
+</html>

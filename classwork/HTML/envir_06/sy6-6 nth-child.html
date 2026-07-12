@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>nth-child</title>
+    <style>
+        table {
+            width: 700px;
+            margin: 10px auto;
+            background-color: #ccc;
+            border: 1px #000 solid;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td,
+        th {
+            height: 20px;
+            line-height: 20px;
+            font-size: 12px;
+            border: 2px #000 solid;
+            padding: 10px;
+        }
+
+        thead tr:nth-child(1) {
+            background-color: #ccc;
+            color: red;
+        }
+
+        tbody tr:nth-child(2n+1) {
+            background-color: #ffc;
+            color: #6600ff;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: #cf9;
+            color: #0000ff;
+        }
+
+        tbody tr:hover {
+            background-color: #33ffff;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>图书</th>
+                <th>出版社</th>
+                <th>出版日期</th>
+                <th>价格</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C++程序设计</td>
+                <td>清华大学出版社</td>
+                <td>2016.1</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Java程序设计</td>
+                <td>人民邮电出版社</td>
+                <td>2017.6</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>HTML5+CSS3网页开发实战教程</td>
+                <td>清华大学出版社</td>
+                <td>2018.9</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>ASP.NET应用开发</td>
+                <td>机械工业出版社</td>
+                <td>2015.10</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>C++程序设计</td>
+                <td>清华大学出版社</td>
+                <td>2016.1</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Java程序设计</td>
+                <td>人民邮电出版社</td>
+                <td>2017.6</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>HTML5+CSS3网页开发实战教程</td>
+                <td>清华大学出版社</td>
+                <td>2018.9</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>ASP.NET应用开发</td>
+                <td>机械工业出版社</td>
+                <td>2015.10</td>
+                <td>54</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

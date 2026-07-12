@@ -1,0 +1,1 @@
+{"name":"Local: P9241","url":"d:\\.CODE\\OI\\luogu\\P9241.cpp","tests":[{"id":1775289888900,"input":"2\n3\n0 100 10\n10 10 10\n0 2 20\n3\n0 10 20\n10 10 20\n20 10 20","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\OI\\luogu\\P9241.cpp","group":"local","local":true}

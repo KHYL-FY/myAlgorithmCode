@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>清除外边距</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .father {
+            width: 200px;
+            height: 200px;
+            border: 10px solid red;
+        }
+
+        .child {
+            height: 200px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <p class="child"></p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>元素显示模式转换</title>
+    <style>
+        div,
+        span {
+            width: 300px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: #FCC;
+            margin: 10px;
+        }
+
+        .d_one {
+            display: inline;
+        }
+
+        .d_two,
+        .s_one {
+            display: inline-block;
+        }
+
+        .s_three {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d_one">第一个div，要被转换成行内元素</div>
+    <div class="d_two">第二个div要被转换成行内块元素</div>
+    <div class="d_three">第三个div没有模式转换</div>
+    <span class="s_one">第一个span要被转换成行内块</span>
+    <span class="s_two">第二个span没有模式转换</span>
+    <span class="s_three">第三个span转换成块元素</span>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>属性选择器的应用02</title>
+    <style>
+        input {
+            width: 150px;
+            margin: 10px;
+        }
+
+        input[type=text] {
+            background-color: yellow;
+        }
+
+        input[type=password] {
+            background-color: pink;
+        }
+
+        input[type=button] {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>添加表单样式</h1>
+    <form name="input" action="" method="get">
+        姓名:<input type="text" name="Name" value="张三" size="20"><br>
+        密码:<input type="password" name="mima" size="20"><br>
+        <input type="button" value="提交信息">
+    </form>
+</body>
+
+</html>

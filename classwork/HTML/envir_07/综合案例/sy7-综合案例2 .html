@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型案例</title>
+    <style>
+        #news {
+            /* background-image: url(./images/dongtai.jpg); */
+            width: 980px;
+            height: 300px;
+            background: url(./images/dongtai.jpg) 60px top no-repeat;
+            margin: 18px auto;
+            padding-top: 120px;
+        }
+
+        .newsson {
+            width: 294px;
+            height: 256px;
+            float: left;
+            margin-left: 29px;
+        }
+
+        .newsson .one {
+            width: 284px;
+            height: 50px;
+            padding-left: 10px;
+            line-height: 50px;
+            font-weight: bold;
+            font-size: 16px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .newsson .two {
+            width: 284px;
+            height: 70px;
+            line-height: 20px;
+            padding: 10px 0 0 10px;
+            font-size: 12px;
+            color: #bbb;
+        }
+
+        .newsson .shadow {
+            height: 294px;
+            height: 5px;
+            background: url(./images/yinying.jpg) no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="news">
+        <div class="newsson">
+            <img src="./images/news1.jpg" alt="">
+            <h2 class="one">
+                优惠活动
+            </h2>
+            <p class="two">新年订单有特大惊喜</p>
+            <p class="shadow"></p>
+        </div>
+
+        <div class="newsson">
+            <img src="./images/news2.jpg" alt="">
+            <h2 class="one">宝贝写真注意什么
+            </h2>
+            <p class="two">看见了结课了就流量计</p>
+            <p class="shadow"></p>
+        </div>
+
+        <div class="newsson">
+            <img src="./images/news3.jpg" alt="">
+            <h2 class="one">宝贝轻生活
+            </h2>
+            <p class="two">看见了看见李克了科技刻录机离开家</p>
+            <p class="shadow"></p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+{"name":"Local: P1042","url":"d:\\.CODE\\P1042.cpp","tests":[{"id":1760786922440,"input":"12 34 56","output":"2"},{"id":1760786941191,"input":"28 70 28","output":"14"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\P1042.cpp","group":"local","local":true}

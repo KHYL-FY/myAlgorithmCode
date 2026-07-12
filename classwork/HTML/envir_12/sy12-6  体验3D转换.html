@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>体验3D转换</title>
+    <style>
+    	body{ 
+    		perspective:1000px;
+    	}
+		img{
+			display: block; 
+			margin: 60px auto; 
+			transition:all 1s;
+		}
+		img:nth-child(1):hover{
+			transform: rotateX(360deg);
+		}
+		img:nth-child(2):hover{
+			transform: rotateY(360deg);
+		}
+		img:nth-child(3):hover{ 
+			transform: rotateZ(360deg);
+		}
+    </style>
+</head>
+<body>
+    <img src="images/x.jpg" alt="" />
+    <img src="images/x.jpg" alt="" />
+    <img src="images/x.jpg" alt="" />
+</body>
+</html>

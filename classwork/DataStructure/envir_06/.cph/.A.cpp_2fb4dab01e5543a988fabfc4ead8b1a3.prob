@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"d:\\.CODE\\classwork\\DataStructure\\envir_06\\A.cpp","tests":[{"id":1779071073798,"input":"4 5\nA B C D\nA B 500\nA C 200\nA D 150\nB C 400\nC D 600","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\classwork\\DataStructure\\envir_06\\A.cpp","group":"local","local":true}

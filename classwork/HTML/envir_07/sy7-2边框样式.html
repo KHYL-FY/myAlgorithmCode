@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>边框样式</title>
+    <style>
+        div {
+            width: 600px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            margin: 20px;
+            border-width: 8px;
+            border-color: #f00;
+        }
+
+        .one {
+            border-style: double;
+        }
+
+        .two {
+            border-style: dotted double;
+        }
+
+        .three {
+            border-style: solid dotted dashed;
+        }
+
+        .four {
+            border-style: solid dotted dashed double;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">4条边框相同:一个值</div>
+    <div class="two">2个值,上下为点线,左右为双实线</div>
+    <div class="three">3个值,上边框单实线、左右点线、下边框虚线</div>
+    <div class="four">4个值,上实线、右点线、下虚线、左双实线</div>
+</body>
+
+</html>

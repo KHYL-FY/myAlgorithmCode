@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>auto和100%区别</title>
+    <style>
+        .father {
+            width: 200px;
+            height: 200px;
+            border: 5px solid #00f;
+            background: #c7b3b3;
+        }
+
+        .son01 {
+            width: auto;
+            padding: 10px;
+            border: 10px solid #f00;
+            margin-bottom: 10px;
+            height: 50px;
+            background-color: pink;
+        }
+
+        .son02 {
+            width: 100%;
+            padding: 10px;
+            border: 10px solid #f00;
+            height: 50px;
+            background-color: rgb(135, 235, 143);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son01">盒子宽度为auto</div>
+        <div class="son02">盒子宽度为100%</div>
+    </div>
+</body>
+
+</html>
