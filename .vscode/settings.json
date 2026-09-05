@@ -72,5 +72,7 @@
         "valarray": "cpp"
     },
     "trae.tab.enableRename": false,
-    "trae.tab.enableAutoImport": false
+    "trae.tab.enableAutoImport": false,
+    "reasonix.autoStart": true,
+    "reasonix.trace": true
 }
