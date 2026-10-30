@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>1-1000累加</title>
+</head>
+<body>
+    <script>
+        // 方法一：for 循环累加 1~1000
+        let sum = 0;
+        for (let i = 1; i <= 1000; i++) {
+            sum += i;              // sum = sum + i
+        }
+        console.log("for 循环累加结果：" + sum);
+
+        // 方法二：while 循环累加 1~1000
+        let sum2 = 0;
+        let i = 1;
+        while (i <= 1000) {
+            sum2 += i;
+            i++;                   // 计数器递增，避免死循环
+        }
+        console.log("while 循环累加结果：" + sum2);
+    </script>
+</body>
+</html>

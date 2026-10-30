@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>九九乘法表</title>
+    <style>
+        span {
+            display: inline-block;
+            width: 100px;
+            padding: 5px 8px;
+            border: 1px solid pink;
+            margin: 2px;
+            border-radius: 5px;
+            background-color: pink;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // 外层控制行（被乘数 i：1~9），内层控制列（乘数 j：1~i）——下三角
+        for (let i = 1; i <= 9; i++) {
+            for (let j = 1; j <= i; j++) {
+                // 每个公式用一个 span 包裹
+                document.write(`<span>${j}×${i}=${j * i}</span>`);
+            }
+            document.write("<br>");   // 每行结束换行，网页里必须用 <br>
+        }
+    </script>
+</body>
+</html>

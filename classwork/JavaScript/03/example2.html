@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Array对象</title>
+    <style>
+        input {
+            width: 100px;
+        }
+
+        td,
+        th {
+            border: 1px solid #000;
+            text-align: center;
+            height: 30px;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body onload="showTable()">
+    学号：<input type="text">&nbsp;&nbsp;姓名：<input type="text"><br>
+    班级：<input type="text">&nbsp;&nbsp;性别：<input type="text"><br><br>
+    <button onclick="add()">添加学生</button><br><br>
+    <div id="tab"></div>
+    <script>
+        let stulist = [
+            { id: 281451083301, name: "张三", clname: "软工2833班", sex: "男" },
+            { id: 281451083402, name: "李瑾", clname: "软工2834班", sex: "女" },
+            { id: 281451083503, name: "王五", clname: "软工2835班", sex: "男" },
+            { id: 281451083604, name: "赵琼", clname: "软工2836班", sex: "女" }
+        ];
+        //显示表格
+        function showTable() {
+            let str = `<table><tr><th>学号</th><th>姓名</th><th>班级</th><th>性别</th><th>操作</th></tr>`;
+            for (let x of stulist) {
+                str += `<tr>
+                    <td>${x.id}</td><td>${x.name}</td>
+                    <td>${x.clname}</td><td>${x.sex}</td>
+                    <td><button onclick='del(${x.id})'>删除</button></td>
+                    </tr>`;
+            }
+            str += '</table>'
+            document.getElementById("tab").innerHTML = str;
+        }
+        //实现添加
+        function add(){
+            let inputs = document.querySelectorAll("input");
+            let idInput = inputs[0].value;
+            let nameInput = inputs[1].value;
+            let clnameInput = inputs[2].value;
+            let sexInput = inputs[3].value;
+
+            let id = parseInt(idInput);
+
+            if(isNaN(id)||!nameInput||!clnameInput||!sexInput){
+                alert("请输入正确并完整的学生信息!");
+                inputs.forEach(input => input.value = "");
+                return;
+            }
+            if(stulist.some(stu => stu.id == id)){
+                alert("学号已经存在!");
+                inputs.forEach(input => input.value = "");
+                return;
+            }
+
+            stulist.push({
+                id: id,
+                name: nameInput,
+                clname: clnameInput,
+                sex: sexInput
+            });
+
+            showTable();
+
+            inputs.forEach(input => input.value = "");
+
+        }
+        //实现删除
+       
+        function del(id){
+             let index = stulist.findIndex(stu => stu.id === id);
+             if (index !== -1) {
+                 stulist.splice(index, 1);
+                 showTable();
+             }
+        }
+    </script>
+</body>
+
+</html>

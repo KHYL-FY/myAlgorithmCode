@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let day = Number(prompt("请输入0-6之间的一个数字:"));
+        
+        switch(day){
+            case 0: 
+                document.write(`<h1>星期日</h1>`);
+                break;
+            case 1: 
+                document.write(`<h1>星期一</h1>`);
+                break;
+            case 2: 
+                document.write(`<h1>星期二</h1>`);
+                break;
+            case 3: 
+                document.write(`<h1>星期三</h1>`);
+                break;
+            case 4: 
+                document.write(`<h1>星期四</h1>`);
+                break;
+            case 5: 
+                document.write(`<h1>星期五</h1>`);
+                break;
+            case 6: 
+                document.write(`<h1>星期六</h1>`);
+                break;
+            default:
+                alert("请输入正确的数字!");
+                break;
+
+        }
+
+    </script>
+</body>
+</html>

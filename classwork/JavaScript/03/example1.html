@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>猴子选大王</title>
+	<style>
+		form {
+			width: 400px;
+			margin: 10px auto;
+		}
+
+		div#result {
+			width: 400px;
+			margin: 10px auto;
+		}
+	</style>
+	<script>
+		function ok(){
+			let countInput = document.getElementById("count").value;
+			let posInput = document.getElementById("pos").value;
+			let result = document.getElementById("result");
+
+			let m = parseInt(countInput);
+			let n = parseInt(posInput);
+
+			if(isNaN(m)||isNaN(n)||n<=0||m<=0){
+				result.innerHTML = "请输入正确的数字";
+				return;
+			}
+			
+			let monkeys = [];
+
+			for(let i = 1; i <= m; i++){
+				monkeys.push(i);
+			}
+
+			let index = 0;
+			while(monkeys.length > 1){
+				index = (index + n - 1) % monkeys.length;
+				monkeys.splice(index, 1);
+			}
+
+			result.innerHTML = "猴王的编号为" + monkeys[0];
+
+			return;
+		}
+	</script>
+</head>
+
+<body>
+	<form action="#" method="get">
+		<fieldset>
+			<legend>猴子选大王游戏</legend>
+			<label for="">猴子的总数量：</label><input type="text" id="count"><br>
+			<label for="">踢出的猴子的报数号：</label><input type="text" id="pos"><br>
+			<input type="button" value="产生猴王" onclick="ok()">
+		</fieldset>
+	</form>
+	<div id="result"></div>
+	
+</body>
+
+</html>

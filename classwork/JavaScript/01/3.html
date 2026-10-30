@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            width: 600px;
+            height: 100px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        th {
+            border: 1px solid #000;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        let college = prompt("请输入你的学院:");
+        let stuClass = prompt("请输入你的班级:");
+        let name = prompt("请输入你的姓名");
+        let id =  prompt("请输入你的学号:");
+
+        document.write(`
+        <table>
+            <caption>
+                <h2>
+                我的个人信息
+                </h2>
+            </caption>
+            <tr><th>学院</th><th>班级</th><th>姓名</th><th>学号</th></tr>
+
+            <tr><th>${college}</th><th>${stuClass}</th><th>${name}</th><th>${id}</th></tr>
+                
+            </table>
+            `)
+    </script>
+</body>
+</html>

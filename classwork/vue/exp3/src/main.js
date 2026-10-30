@@ -1,0 +1,10 @@
+import { createApp } from 'vue'
+// import './style.css'
+// import App from './App.vue'
+// import App from './components/code1-1.vue'
+import App from './components/code2-1.vue'
+// import App from './components/code2-2.vue'
+// import App from './components/code2-3.vue'
+// import App from './components/code2-4.vue'
+// import App from './components/code2-5.vue'
+createApp(App).mount('#app')

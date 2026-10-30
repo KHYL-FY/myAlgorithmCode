@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息录入</title>
+</head>
+<body>
+    <script>
+        // 依次输入学院、班级、姓名、学号（class 是保留字，用 stuClass）
+        var college = prompt("请输入你的学院：");
+        var stuClass = prompt("请输入你的班级：");
+        var name = prompt("请输入你的姓名：");
+        var id = prompt("请输入你的学号：");
+
+        // 在控制台逐行显示
+        console.log("学院：" + college);
+        console.log("班级：" + stuClass);
+        console.log("姓名：" + name);
+        console.log("学号：" + id);
+
+        // 也可以合并成一段，按 \n 换行
+        // console.log("我的个人信息：\n学院：" + college + "\n班级：" + stuClass + "\n姓名：" + name + "\n学号：" + id);
+    </script>
+</body>
+</html>

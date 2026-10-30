@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let weight = Number(prompt("请输入您的体重(kg)"));
+        let high = Number(prompt("请输入您的身高(m)"));
+
+        if(isNaN(weight) || isNaN(high) || weight <= 0 || high <= 0){
+            alert("请输入正确的体重和身高!");
+        }
+        else{
+            let bmi = Math.round(weight / (high * high) * 10) / 10;
+            let ans;
+          if(bmi < 18.5){
+                ans = "体重过轻";
+            }
+            else if(bmi <= 24.9){
+                ans = "体重正常";
+            }
+            else if(bmi <= 29.9){
+                ans = "超重";
+            }
+            else ans = "肥胖";
+
+            document.write(`<h1>您的BMI值为:${bmi}-----${ans}</h1>`)
+        }
+    </script>
+</body>
+</html>

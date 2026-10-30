@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息表格</title>
+    <style>
+        table {
+            width: 600px;
+            height: 100px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        th {
+            border: 1px solid #000;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // 依次输入学院、班级、姓名、学号（class 是保留字，用 stuClass）
+        let college = prompt("请输入你的学院：");
+        let stuClass = prompt("请输入你的班级：");
+        let name = prompt("请输入你的姓名：");
+        let id = prompt("请输入你的学号：");
+
+        // 用模板字符串拼接表格 HTML（表头 + 数据行）
+        let info = `<table>
+            <tr><th>项目</th><th>信息</th></tr>
+            <tr><td>学院</td><td>${college}</td></tr>
+            <tr><td>班级</td><td>${stuClass}</td></tr>
+            <tr><td>姓名</td><td>${name}</td></tr>
+            <tr><td>学号</td><td>${id}</td></tr>
+        </table>`;
+
+        // 将表格写入页面
+        document.write(info);
+    </script>
+</body>
+</html>
