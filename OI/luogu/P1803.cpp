@@ -22,15 +22,11 @@ int main()
     cin >> n;
     vector<t> act(n);
     for (auto &i : act)
-    {
         cin >> i.s >> i.e;
-    }
+    
 
     sort(act.begin(), act.end(), cmp);
-    // for (auto &i : act)
-    // {
-    //     cout << i.s << i.e << endl;
-    // }
+
     t pre;
     pre.s = act[0].s;
     pre.e = act[0].e;
