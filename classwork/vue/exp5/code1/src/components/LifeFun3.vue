@@ -1,4 +1,6 @@
 <script setup>
+
+
 import { reactive, onMounted,computed } from 'vue'
 const state = reactive({
   mytext: '',
@@ -19,6 +21,7 @@ const computedList = computed(() => {   //定义计算属性，根据文本框�
 </script>
 
 <template>
+  软工2541王艺杰<br>
   请输入书籍关键字：
   <input type="text" v-model="state.mytext" />
   <p></p>

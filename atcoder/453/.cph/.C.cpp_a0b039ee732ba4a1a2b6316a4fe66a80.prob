@@ -1,1 +1,1 @@
-{"name":"Local: C","url":"d:\\.CODE\\atcoder\\453\\C.cpp","tests":[{"id":1776088587658,"input":"6\n21 19 60 31 62 75","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\atcoder\\453\\C.cpp","group":"local","local":true}
+{"name":"Local: C","url":"d:\\.CODE\\atcoder\\453\\C.cpp","tests":[{"id":1776088587658,"input":"6\n21 19 60 31 62 75","output":"5"},{"id":1795363242288,"input":"4\n2 1 3 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\.CODE\\atcoder\\453\\C.cpp","group":"local","local":true}
